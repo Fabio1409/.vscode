@@ -25,10 +25,21 @@ lista[2] = 300
 # print(lista)
 # print(lista[2],type(lista[2]))
 
-lista.append(50)    # adicionar mais itens a lista.
-lista.pop()     # Remove o último elemento.
-lista.append(60)
-lista.append(70)
-lista.append(80)
-lista.pop()     #  sempre remove o ultimo item da lista
-print(lista)
+# lista.append(50)    # adicionar mais itens a lista.
+# lista.pop()     # Remove o último elemento.
+# lista.append(60)
+# lista.append(70)
+# lista.append(80)
+# lista.pop()     #  sempre remove o ultimo item da lista
+# print(lista)
+
+lista = [10,20,30,40]
+lista.append('Jose Fabio')
+
+nome = lista.pop() # pop remover o ultimo nome da lista
+lista.append(1234)
+del lista[-1] # del usado pra apagar qualquer nome na lista.
+# lista.clear() # limpar lista
+lista.insert(0,2) # insert serve pra inserir itens em qualquer lugar da sua tabela.
+
+print(lista,nome)
