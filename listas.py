@@ -14,8 +14,8 @@ Métodos úteis: append, insert, pop, del, clear, extend, +
 # print(bool({}))
 # print(lista,type(lista))
 
-lista = [10,20,30,40]
-lista[2] = 300
+# lista = [10,20,30,40]
+# lista[2] = 300
 
 
 
@@ -33,13 +33,20 @@ lista[2] = 300
 # lista.pop()     #  sempre remove o ultimo item da lista
 # print(lista)
 
-lista = [10,20,30,40]
-lista.append('Jose Fabio')
+# lista = [10,20,30,40]
+# lista.append('Jose Fabio')
 
-nome = lista.pop() # pop remover o ultimo nome da lista
-lista.append(1234)
-del lista[-1] # del usado pra apagar qualquer nome na lista.
-# lista.clear() # limpar lista
-lista.insert(0,2) # insert serve pra inserir itens em qualquer lugar da sua tabela.
+# nome = lista.pop() # pop remover o ultimo nome da lista
+# lista.append(1234)
+# del lista[-1] # del usado pra apagar qualquer nome na lista.
+# # lista.clear() # limpar lista
+# lista.insert(100,2) # insert serve pra inserir itens em qualquer lugar da sua tabela.
+# print(lista[4])
 
-print(lista,nome)
+lista_a = [1,2,3]
+lista_b = [4,5,6]
+lista_c = lista_a + lista_b # concatenação de listas
+lista_d = lista_a.extend(lista_b) 
+print(lista_a)
+
+
