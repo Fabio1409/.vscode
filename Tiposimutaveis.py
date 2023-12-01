@@ -6,7 +6,7 @@ Imutáveis que vimos: str, int, float, bool
 string  = 'jose Fabio'
 outra_variavel = {f'{string[:3]}ABC{string[4:]}'}
 print(string)
-print(outra_variavel) # strings sao imutaveis
+print(outra_variavel) # strings são imutaveis
 print(string.capitalize())
 print(string.upper())
 print(string.lower())
