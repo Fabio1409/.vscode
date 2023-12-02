@@ -9,3 +9,8 @@ Introdução ao desempacotamento + tuplas(tuplas)
 # _,_,nome,*resto = ['maria','Helena','Josefabio']
 # print(nome,resto)
 
+# TUPLAS
+nome = ('Maria','Helena','Fabio')
+nome = list(nome)   # TRANSFORMANDO TUPLA EM  LISTA
+nome = tuple(nome)  # TRANSFORMANDO LISTA EM TUPLA
+print(nome[0])
