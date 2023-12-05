@@ -11,3 +11,4 @@ else:
     print('Não encontrei uma espaço na string.')    # se houver o break esse else nao sera executado.
     
 print('fora do while.')
+

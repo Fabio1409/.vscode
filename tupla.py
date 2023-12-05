@@ -10,7 +10,10 @@ Introdução ao desempacotamento + tuplas(tuplas)
 # print(nome,resto)
 
 # TUPLAS
-nome = ('Maria','Helena','Fabio')
-nome = list(nome)   # TRANSFORMANDO TUPLA EM  LISTA
-nome = tuple(nome)  # TRANSFORMANDO LISTA EM TUPLA
-print(nome[0])
+nome = ['Maria','Helena','Fabio']
+nome.append('Miguel')
+#nome = list(nome)   # TRANSFORMANDO TUPLA EM  LISTA
+#nome = tuple(nome)  # TRANSFORMANDO LISTA EM TUPLA
+for item in enumerate(nome):
+    a,b = item
+    print(a,b)
